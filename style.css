@@ -1,0 +1,128 @@
+/* common css  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common css end  */
+body{
+    background: url(./assents/images/bg.gif) center;
+}
+
+.cont{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+/* Top bar start  */
+.topbar{
+    background: #9E5BBA;
+    height: 30px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+    border-bottom: 1px solid red;
+}
+.top_right p{
+    display: inline-block;
+    border-right: 1px solid white;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+.top_right a{
+    text-decoration: none;
+    color: white;
+}
+/* Top bar end */
+/* logo part start  */
+.logo{
+   height: 100px;
+   background-color: cyan;
+}
+.logo2{
+
+}
+.logo_left{
+    line-height: 110px;
+}
+.logo_search{
+    padding-top: 45px;
+}
+.logo_search input{
+    width: 65%;
+    padding: 5px;
+    font-size: 14px;
+
+}
+.logo_search button{
+    background: #eee;
+    background: #eee -moz-linear-gradient(top, rgba(255,255,255,.2) 0%, rgba(0,0,0,.2) 100%);
+    background: #eee -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,.2)), color-stop(100%,rgba(0,0,0,.2)));
+    background: #eee -webkit-linear-gradient(top, rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%);
+    background: #eee -o-linear-gradient(top, rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%);
+    background: #eee -ms-linear-gradient(top, rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%);
+    background: #eee linear-gradient(top, rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%);
+    border: 1px solid #aaa;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 5px;
+    color: #444;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0 1px rgb(255 255 255 / 75%);
+    cursor: pointer;
+    margin-bottom: 20px;
+    line-height: normal;
+    padding: 8px 10px;
+}
+.logo1{
+    border-right: 1px solid rgba(145, 34, 34, 0.2);
+    padding-right: 10px;
+    margin-right: 10px;
+}
+.logo_right{
+    padding-top: 35px;
+}
+.logo2 h5{
+    font-size:13px ;
+}
+/* logo part end */
+/* main menu part start*/
+.main-menu a{
+    border: 1px solid #9E5BBA;
+    transition: 1s;
+}
+.main-menu a:hover{
+    color: #9E5BBA;
+    font-size: 18px;
+}
+/* main menu part end */
+/* hero part start */
+.banner img{
+    border: 2px solid red;
+    padding: 10px;
+}
+/* hero part end */
+/* slider part start */
+.slider{
+    margin-top: 10px;
+}
+/* slider part end */
+/* list start  */
+.list ul{
+    padding: 15px;
+    list-style: none;
+}
+.list ul li a{
+    text-decoration: none;
+    border-bottom: 1px solid green;
+    padding: 5px;
+    color: green;
+}
+/* list end */
+
+
